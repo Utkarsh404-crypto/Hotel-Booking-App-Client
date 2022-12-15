@@ -1,0 +1,56 @@
+.navbar {
+    height: 50px;
+    background-color: #088F8F;
+    display: flex;
+    justify-content: center;
+}
+
+.navContainer {
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+.navButton {
+    margin-left: 20px;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    color: #088F8F;
+    font-weight: bold;
+}
+
+.loggedIn span#logout {
+    margin-left: 2rem;
+    cursor: pointer;
+}
+
+@media (max-width: 992px) {
+    .navbar {
+        width: 106%;
+    }
+    .navContainer {
+        width: 75%;
+    }
+    .headerList {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 280px) {
+    .navContainer {
+        width: 75%;
+    }
+    .headerList {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
