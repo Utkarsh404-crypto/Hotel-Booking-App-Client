@@ -126,7 +126,7 @@
     .headerSearch {
         display: flex;
         flex-wrap: wrap;
-        width: 97vw;
+        width: 93%;
         height: fit-content;
     }
     .headerSearchItem {
