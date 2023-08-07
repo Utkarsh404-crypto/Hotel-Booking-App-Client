@@ -4,7 +4,7 @@ import "./featured.css";
 
 const Featured = () => {
 	const { data, loading, error } = useFetch(
-		"https://hotel-booking-app-server-production.up.railway.app/api/hotels/countbycity?cities=dublin,austin,Madrid"
+		"https://hotel-booking-server-bo1n.onrender.com/api/hotels/countbycity?cities=dublin,austin,Madrid"
 	);
 
 	return (

@@ -24,7 +24,7 @@ const Login = () => {
 		dispatch({ type: "LOGIN_START" });
 		try {
 			const res = await axios.post(
-				"https://hotel-booking-app-server-production.up.railway.app/api/auth/login",
+				"https://hotel-booking-server-bo1n.onrender.com/api/auth/login",
 				credentials
 			);
 			console.log(res);

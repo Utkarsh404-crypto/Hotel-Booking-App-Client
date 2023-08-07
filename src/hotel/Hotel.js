@@ -25,7 +25,7 @@ const Hotel = () => {
 	const [open, setOpen] = useState(false);
 	const [openModal, setOpenModal] = useState(false);
 	const { data, loading, error } = useFetch(
-		`https://hotel-booking-app-server-production.up.railway.app/api/hotels/find/${id}`
+		`https://hotel-booking-server-bo1n.onrender.com/api/hotels/find/${id}`
 	);
 	const { date, options } = useContext(SearchContext);
 	const { user } = useContext(AuthContext);

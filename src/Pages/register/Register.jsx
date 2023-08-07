@@ -28,7 +28,7 @@ const Register = () => {
 		try {
 			if (credentials.password === cp) {
 				const res = await axios.post(
-					"https://hotel-booking-app-server-production.up.railway.app/api/auth/register",
+					"https://hotel-booking-server-bo1n.onrender.com/api/auth/register",
 					credentials
 				);
 				navigate("/login");

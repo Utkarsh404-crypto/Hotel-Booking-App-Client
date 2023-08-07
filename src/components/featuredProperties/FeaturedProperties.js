@@ -3,7 +3,7 @@ import "./featuredProperties.css";
 
 const FeaturedProperties = () => {
 	const { data, loading, error } = useFetch(
-		"https://hotel-booking-app-server-production.up.railway.app/api/hotels?featured=false&limit=4"
+		"https://hotel-booking-server-bo1n.onrender.com/api/hotels?featured=false&limit=4"
 	);
 
 	return (

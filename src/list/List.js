@@ -18,7 +18,7 @@ const List = () => {
 	const [max, setMax] = useState(undefined);
 
 	const { data, loading, error, reFetch } = useFetch(
-		`https://hotel-booking-app-server-production.up.railway.app/api/hotels?city=${destination}&min=${
+		`https://hotel-booking-server-bo1n.onrender.com/api/hotels?city=${destination}&min=${
 			min || 0
 		}&max=${max || 999}`
 	);
