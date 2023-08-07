@@ -29,7 +29,7 @@ const FeaturedProperties = () => {
 							</span>{" "}
 							{item.hotelrating && (
 								<div className="fpRating">
-									<button> {item.hotelrating} </button> <span>Excellent </span>{" "}
+									<button> {item.hotelrating} &#9733; </button> <span>Excellent </span>{" "}
 								</div>
 							)}{" "}
 						</div>

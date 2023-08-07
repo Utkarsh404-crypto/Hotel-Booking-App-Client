@@ -24,8 +24,7 @@ const Featured = () => {
 							<h1> Dublin </h1>{" "}
 							<h2>
 								{" "}
-								{data[0]}
-								properties{" "}
+								{data[0]} properties{" "}
 							</h2>{" "}
 						</div>{" "}
 					</div>{" "}
@@ -39,8 +38,7 @@ const Featured = () => {
 							<h1> Austin </h1>{" "}
 							<h2>
 								{" "}
-								{data[1]}
-								properties{" "}
+								{data[1]} properties{" "}
 							</h2>{" "}
 						</div>{" "}
 					</div>{" "}
@@ -54,8 +52,7 @@ const Featured = () => {
 							<h1> Madrid </h1>{" "}
 							<h2>
 								{" "}
-								{data[2]}
-								properties{" "}
+								{data[2]} properties{" "}
 							</h2>{" "}
 						</div>{" "}
 					</div>{" "}
