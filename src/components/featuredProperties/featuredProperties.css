@@ -43,9 +43,14 @@
     font-size: 14px;
 }
 
+.load {
+    margin-left: 15px;
+}
+
 @media (max-width: 992px) {
     .fp {
         gap: 10px;
+        margin-left: 10px;
     }
     .fpImg {
         border-radius: 8px;
